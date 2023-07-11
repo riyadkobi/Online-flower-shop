@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn_primary{
+    border-radius: 8px;
+    background: #E55473;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px 40px;
+    font-weight: 400;
+    border: 0;
+}
+.section_title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #272727;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section_drescription{
+    margin: 0 auto;
+    width: 534px;
+    text-align: center;
+    line-height: 1.7;
+    color: #27272799;
+}
+/* header section style */
+.header{
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+    background: #E554731A;
+    gap: 80px;
+}
+.header_title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 700;
+}
+.header_drescription{
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 30px 0;
+}
+.header_img img{
+    height: 600px;
+    margin-top: 50px;
+}
+/* our featured flower styles */
+
+.our_featured{
+    margin: 140px 0 40px 0;
+}
+.pink_flower{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    padding: 20px 190px 0 190px;
+}
+.pink_flower_item{
+    height: 538px;
+    width: 380px;
+}
+.image{
+    border-radius: 300px 300px 0 0;
+}
+.image img{
+    height: 300px;
+    padding: 100px 78px 0 78px;
+    margin-bottom: -5px;
+}
+.image1{
+    background-color: #A7216226;
+}
+.image2 img{
+    height: 300px;
+    width: 260px;
+}
+.image2{
+    background-color: #0597A026;
+}
+.image3{
+    background-color: #477D1126;
+}
+.flower_title{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration-line: underline;
+    padding-top: 20px;
+}
+
+.contact{
+    width: 1140px;
+    background-color: #2727270D;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 80px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 80px;
+}
+.contact_drescription{
+    font-size: 18px;
+    padding-top: 8px;
+    color: #272727CC;
+}
+/* selling section styles */
+
+.sell_flower{
+    display: flex;
+    width: 1140px;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.sell_flower_item{
+    text-align: center;
+    background-color: #fff;
+    height: 369px;
+    width: 290px;
+    margin-top: 15px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.266);
+}
+.sell_flower_item a{
+    padding: 20px 0;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.sell_flower_item a:hover{
+    color: #E55473;
+}
+.sell_flower_item img{
+    height: 310px;
+}
+
+
+/* sign up section styles */
+
+.sign_up{
+    display: flex;
+    align-items: center;
+    padding: 70px 300px;
+    background: #E554731A;
+    gap: 80px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.sign_up_title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sign_up_drescription{
+    font-size: 14px;
+    padding: 30px 0;
+    color: #27272799;
+}
+.sign_up_img img{
+    height: 300px;
+}
+.sign_up_content{
+    text-align: center;
+    width: 500px;
+}
+
+/* instagram section styles */
+
+.instagram_image{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 175px;
+    margin-bottom: 50px;
+}
+.instagram_image_item img{
+    height: 310px;
+}
+
+.latest_deal{
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    width: 1140px;
+    margin: 0 auto;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.latest_deal_content{
+    padding: 100px 200px;
+    text-align: center;
+}
+.latest_deal_content input{
+    width: 550px;
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 20px;
+}
+.latest_deal_content button{
+    padding: 16px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-left: 5px;
+}
+
+.footer{
+    background-color: #111010;
+    text-align: center;
+    padding: 80px 0;
+}
+.section_title span{
+    color: #E55473;
+}
+.footer h1{
+    color: #ffffff;
+}
+.footer p{
+    color: #FFFFFFE5;
+    font-size: 14px;
+}
+.footer_content{
+    color: #FFFFFF66;
+    font-size: 14px;
+    padding-top: 20px;
+}
